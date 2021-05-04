@@ -2,8 +2,8 @@ import {useState} from 'react'
 import axios from 'axios'
 
 const LoginForm = () =>{
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
+    const [username, setUsername] = useState('Shankey');
+    const [password, setPassword] = useState('12345678');
    const [error, setError] = useState('');
 //    const [Login , setLogin] = useState(true)
 
@@ -34,6 +34,8 @@ const LoginForm = () =>{
                       <span>Start chatting</span>
                     </button>
                   </div>
+                  <h4>*Note demo account credentials are shared below</h4>
+                  <h4><span>UserName:</span>Prince<span>Passsword:</span>Bo$$</h4>
                 </form>
          )
     } 
